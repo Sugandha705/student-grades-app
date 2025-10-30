@@ -8,7 +8,8 @@
  "esModuleInterop": true,
  "skipLibCheck": true,
  "noEmit": true,
- "moduleResolution": "node"
+ "moduleResolution": "node",
+ "types": ["node", "express", "cors"]
  },
  "include": ["src"], // Compiler soll nur Dateien in src berücksichtigen
  "exclude": ["node_modules"] // Ignoriert node_modules (eigentlich standardmäßig ausgeschlossen)
