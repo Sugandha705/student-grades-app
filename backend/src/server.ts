@@ -4,7 +4,7 @@ import connectDB from "./config/db";
 import studentRoutes from "./routes/studentsRouter";
 // ✅ TypeScript Konzept: Explizite Typisierung
 const app: Express = express();
-const PORT: number = parseInt(process.env.PORT || "5000");
+const PORT: number = parseInt(process.env.PORT || "3000");
 // Middleware
 //app.use(cors());
 

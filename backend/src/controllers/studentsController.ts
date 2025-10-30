@@ -1,6 +1,8 @@
 import { Request, Response } from "express";
 import { Student, StudentType } from "../models/Student";
 // ✅ TypeScript Konzept: Funktions-Typisierung mit Request & Response
+
+
 // GET - Alle Studenten abrufen
 export const getAllStudents = async (req: Request, res: Response):
 Promise<void> => {
@@ -21,6 +23,8 @@ Promise<void> => {
  }
  }
 };
+
+
 // POST - Neuen Student erstellen
 export const createStudent = async (req: Request, res: Response):
 Promise<void> => {
