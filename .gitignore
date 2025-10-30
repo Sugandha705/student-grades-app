@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+**/node_modules/
+# Environment
+.env
+**/.env
+# Build
+dist/
+**/dist/
+build/
+**/build/
+# Logs
+*.log
+npm-debug.log*
+# OS
+.DS_Store
+Thumbs.db
+# Dateien hinzufügen
+git add .
+# Commit
+git commit -m "Initial commit"
+# Remote hinzufügen (ersetze USERNAME und REPO)
+git remote add origin https://github.com/USERNAME/student-grades-app.git
+# Push
+git push -u origin main

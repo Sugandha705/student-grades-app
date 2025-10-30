@@ -1,0 +1,15 @@
+{
+ "compilerOptions": {
+ "target": "ES6",
+ "module": "ES2022",
+ "outDir": "./dist",
+ "rootDir": "./src",
+ "strict": true,
+ "esModuleInterop": true,
+ "skipLibCheck": true,
+ "noEmit": true,
+ "moduleResolution": "node"
+ },
+ "include": ["src"], // Compiler soll nur Dateien in src berücksichtigen
+ "exclude": ["node_modules"] // Ignoriert node_modules (eigentlich standardmäßig ausgeschlossen)
+}
