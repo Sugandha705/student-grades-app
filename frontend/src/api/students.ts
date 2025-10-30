@@ -1,5 +1,8 @@
 import type { Student } from "../types/student";
-const API_URL = "http://localhost:3000/api/students";
+//const API_URL = "http://localhost:3000/api/students";
+
+const API_URL = import.meta.env.VITE_API_URL || "http://localhost:3000/api/students";
+
 // ✅ TypeScript Konzept: Funktions-Typisierung mit Promise und Array
 // Funktion gibt ein Promise zurück, das ein Array von Students enthält
 export const fetchStudents = async (): Promise<Student[]> => {
