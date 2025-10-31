@@ -25,6 +25,9 @@ Promise<void> => {
 };
 
 
+
+
+
 // POST - Neuen Student erstellen
 export const createStudent = async (req: Request, res: Response):
 Promise<void> => {

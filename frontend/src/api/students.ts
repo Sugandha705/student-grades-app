@@ -16,6 +16,13 @@ export const fetchStudents = async (): Promise<Student[]> => {
  const data: Student[] = await response.json();
  return data;
 };
+
+
+
+
+
+
+
 // ✅ Konzept: Funktionsparameter typisieren
 // Funktion nimmt ein Student-Objekt ohne _id und gibt ein Student zurück
 export const addStudent = async (student: Omit<Student, '_id' | 'createdAt'
